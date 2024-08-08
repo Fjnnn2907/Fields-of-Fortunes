@@ -10,6 +10,7 @@ public class PotentialManager : MonoBehaviour
 
     public int potential;
     public int Point = 0;
+    public int Point1 = 0;
     private void Awake()
     {
         Instance = this;
@@ -35,9 +36,9 @@ public class PotentialManager : MonoBehaviour
         }
         else if (count == 2)
         {
-            potential -= count;
-            Point++;
-            PlayerManger.Instance.maxHealth += 20;
+            potential --;
+            Point1++;
+            PlayerManger.Instance.maxHealth += 200;
         }
         else if ( count == 3)
         {

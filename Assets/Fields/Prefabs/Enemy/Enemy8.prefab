@@ -229,7 +229,7 @@ MonoBehaviour:
   enemyState: 0
   icon: {fileID: 3673451371568490812}
   itemDrops:
-  - item: {fileID: 4619630564439359612, guid: 23c809d6041705f4ea5af19e0891a4d0, type: 3}
+  - item: {fileID: 5241632875957451445, guid: 7ebd265f595f3ca49ac59fb7595ed139, type: 3}
     dropRate: 0.7
   - item: {fileID: 5905414728471384901, guid: 901a613ea23fb8d4ea1e5f387954534c, type: 3}
     dropRate: 0.4

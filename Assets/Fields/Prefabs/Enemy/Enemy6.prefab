@@ -145,7 +145,7 @@ MonoBehaviour:
   enemyState: 0
   icon: {fileID: 6916297997933690001}
   itemDrops:
-  - item: {fileID: 4619630564439359612, guid: 23c809d6041705f4ea5af19e0891a4d0, type: 3}
+  - item: {fileID: 5241632875957451445, guid: 7ebd265f595f3ca49ac59fb7595ed139, type: 3}
     dropRate: 0.7
   - item: {fileID: 5905414728471384901, guid: 901a613ea23fb8d4ea1e5f387954534c, type: 3}
     dropRate: 0.4
@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0365b7aeca35d44da8528280dfaa238, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 50
 --- !u!1 &7822521717267099576
 GameObject:
   m_ObjectHideFlags: 0
