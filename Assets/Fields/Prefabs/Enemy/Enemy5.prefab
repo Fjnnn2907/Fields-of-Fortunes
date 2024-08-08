@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  Zone: 9.26
+  Zone: 6.42
   timeChange: 3
   stopTime: 1
   chaseRange: 4.2
@@ -145,15 +145,15 @@ MonoBehaviour:
   enemyState: 0
   icon: {fileID: 207988630155326886}
   itemDrops:
-  - item: {fileID: 4619630564439359612, guid: 23c809d6041705f4ea5af19e0891a4d0, type: 3}
+  - item: {fileID: 5241632875957451445, guid: 7ebd265f595f3ca49ac59fb7595ed139, type: 3}
     dropRate: 0.7
   - item: {fileID: 5905414728471384901, guid: 901a613ea23fb8d4ea1e5f387954534c, type: 3}
     dropRate: 0.4
-  - item: {fileID: 802495143626001703, guid: ff80d275be28b054db0d352597d02905, type: 3}
+  - item: {fileID: 8810485995417373455, guid: e3348bbda5dfc65459294463ad1b268f, type: 3}
     dropRate: 0.2
   rb: {fileID: 0}
   anim: {fileID: 0}
-  MoveZone: {fileID: 5040026778675299295, guid: 08d0435986f53b04aac6d31a7c283bf5, type: 3}
+  MoveZone: {fileID: 0}
   hp: 10
   maxHp: 0
   healthSlider: {fileID: 2889661849967658637}
@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0365b7aeca35d44da8528280dfaa238, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 50
 --- !u!1 &5135523901854288949
 GameObject:
   m_ObjectHideFlags: 0
