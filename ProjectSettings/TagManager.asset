@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - effect
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - MiniMap
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 866298749
+    locked: 0
+  - name: MiniMap
+    uniqueID: 276232103
+    locked: 0
+  - name: Farm
+    uniqueID: 2294002281
+    locked: 0
+  - name: Decol
+    uniqueID: 3447955185
+    locked: 0
+  - name: Tree
+    uniqueID: 3663075093
+    locked: 0
+  - name: Enemy
+    uniqueID: 2542707765
+    locked: 0
+  - name: Player
+    uniqueID: 707856063
+    locked: 0
+  - name: Tree2
+    uniqueID: 2442590703
+    locked: 0
+  - name: Grass
+    uniqueID: 4038532555
+    locked: 0
