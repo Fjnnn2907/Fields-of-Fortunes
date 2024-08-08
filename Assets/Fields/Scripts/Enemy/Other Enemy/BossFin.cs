@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class BossFin : Enemy
 {
     public static BossFin instance;
