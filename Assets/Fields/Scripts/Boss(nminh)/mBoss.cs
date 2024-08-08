@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class mBoss : MonoBehaviour
 {
@@ -12,16 +13,21 @@ public class mBoss : MonoBehaviour
     public float attackCooldown = 2f; // Cooldown between attacks
     public int maxHealth = 100; // Max health
     public int damage = 10; // Damage dealt to the player
+    private float targetFillAmount;
+    public float updateSpeed = 0.5f;
 
     [SerializeField] private float lastAttackTime = 0f; // Time of last attack
     [SerializeField] private int currentHealth; // Current health
     [SerializeField] private Animator animator; // Animator component
     [SerializeField] private bool isDead = false; // Flag to check if boss is dead
+    [SerializeField] private Slider healthSlider;
+    [SerializeField] private Image Hp;
     private PlayerManger manager;
     
     void Start()
     {
         currentHealth = maxHealth;
+        healthSlider.maxValue = maxHealth;
         animator = GetComponent<Animator>();
         manager = player.GetComponent<PlayerManger>();
     }
@@ -32,6 +38,12 @@ public class mBoss : MonoBehaviour
 
         MoveTowardsPlayer();
         HandleAttack();
+        
+        if (Hp.fillAmount != targetFillAmount)
+        {
+            Hp.fillAmount = Mathf.MoveTowards(Hp.fillAmount, targetFillAmount, updateSpeed * Time.deltaTime);
+
+        }
     }
 
     void MoveTowardsPlayer()
