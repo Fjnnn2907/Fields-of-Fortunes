@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class BossFin : Enemy
 {
-
+    public static BossFin instance;
     protected new void Awake()
     {
         base.Awake();
-
+        instance = this;
 
     }
 
