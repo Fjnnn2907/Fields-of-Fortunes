@@ -36,7 +36,7 @@ public class mBoss : MonoBehaviour
 
     void MoveTowardsPlayer()
     {
-        animator.SetBool("isRunning",false);
+        animator.SetBool("isRunning",true);
         Vector2 direction = (player.transform.position - transform.position).normalized;
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
     }
