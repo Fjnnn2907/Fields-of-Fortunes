@@ -47531,6 +47531,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 591812432774253956, guid: ace29158c6e31fe4b88d5147aa661e0d, type: 3}
+      propertyPath: itemDrops.Array.data[0].item
+      value: 
+      objectReference: {fileID: 5241632875957451445, guid: 7ebd265f595f3ca49ac59fb7595ed139, type: 3}
+    - target: {fileID: 591812432774253956, guid: ace29158c6e31fe4b88d5147aa661e0d, type: 3}
+      propertyPath: itemDrops.Array.data[2].item
+      value: 
+      objectReference: {fileID: 8810485995417373455, guid: e3348bbda5dfc65459294463ad1b268f, type: 3}
     - target: {fileID: 1326981610582965937, guid: ace29158c6e31fe4b88d5147aa661e0d, type: 3}
       propertyPath: m_Name
       value: Enemy5 (1)
@@ -47600,6 +47608,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 591812432774253956, guid: ace29158c6e31fe4b88d5147aa661e0d, type: 3}
+      propertyPath: itemDrops.Array.data[0].item
+      value: 
+      objectReference: {fileID: 5241632875957451445, guid: 7ebd265f595f3ca49ac59fb7595ed139, type: 3}
+    - target: {fileID: 591812432774253956, guid: ace29158c6e31fe4b88d5147aa661e0d, type: 3}
+      propertyPath: itemDrops.Array.data[2].item
+      value: 
+      objectReference: {fileID: 8810485995417373455, guid: e3348bbda5dfc65459294463ad1b268f, type: 3}
     - target: {fileID: 1326981610582965937, guid: ace29158c6e31fe4b88d5147aa661e0d, type: 3}
       propertyPath: m_Name
       value: Enemy5 (2)
@@ -94721,6 +94737,14 @@ PrefabInstance:
       propertyPath: MoveZone
       value: 
       objectReference: {fileID: 975049092}
+    - target: {fileID: 591812432774253956, guid: ace29158c6e31fe4b88d5147aa661e0d, type: 3}
+      propertyPath: itemDrops.Array.data[0].item
+      value: 
+      objectReference: {fileID: 5241632875957451445, guid: 7ebd265f595f3ca49ac59fb7595ed139, type: 3}
+    - target: {fileID: 591812432774253956, guid: ace29158c6e31fe4b88d5147aa661e0d, type: 3}
+      propertyPath: itemDrops.Array.data[2].item
+      value: 
+      objectReference: {fileID: 8810485995417373455, guid: e3348bbda5dfc65459294463ad1b268f, type: 3}
     - target: {fileID: 1326981610582965937, guid: ace29158c6e31fe4b88d5147aa661e0d, type: 3}
       propertyPath: m_Name
       value: Enemy5

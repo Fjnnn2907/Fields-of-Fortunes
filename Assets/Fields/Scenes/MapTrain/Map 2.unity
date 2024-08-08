@@ -7462,6 +7462,22 @@ PrefabInstance:
       propertyPath: MoveZone
       value: 
       objectReference: {fileID: 1480413350}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[0].item
+      value: 
+      objectReference: {fileID: 5241632875957451445, guid: 7ebd265f595f3ca49ac59fb7595ed139, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[1].item
+      value: 
+      objectReference: {fileID: 8810485995417373455, guid: e3348bbda5dfc65459294463ad1b268f, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[2].item
+      value: 
+      objectReference: {fileID: 5905414728471384901, guid: 901a613ea23fb8d4ea1e5f387954534c, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[1].dropRate
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7177230140679350406, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -7535,6 +7551,22 @@ PrefabInstance:
       propertyPath: MoveZone
       value: 
       objectReference: {fileID: 1480413350}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[0].item
+      value: 
+      objectReference: {fileID: 5241632875957451445, guid: 7ebd265f595f3ca49ac59fb7595ed139, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[1].item
+      value: 
+      objectReference: {fileID: 8810485995417373455, guid: e3348bbda5dfc65459294463ad1b268f, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[2].item
+      value: 
+      objectReference: {fileID: 5905414728471384901, guid: 901a613ea23fb8d4ea1e5f387954534c, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[1].dropRate
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7177230140679350406, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -33031,6 +33063,22 @@ PrefabInstance:
       propertyPath: MoveZone
       value: 
       objectReference: {fileID: 1480413350}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[0].item
+      value: 
+      objectReference: {fileID: 5241632875957451445, guid: 7ebd265f595f3ca49ac59fb7595ed139, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[1].item
+      value: 
+      objectReference: {fileID: 8810485995417373455, guid: e3348bbda5dfc65459294463ad1b268f, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[2].item
+      value: 
+      objectReference: {fileID: 5905414728471384901, guid: 901a613ea23fb8d4ea1e5f387954534c, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[1].dropRate
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7177230140679350406, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -34272,6 +34320,22 @@ PrefabInstance:
       propertyPath: MoveZone
       value: 
       objectReference: {fileID: 1480413350}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[0].item
+      value: 
+      objectReference: {fileID: 5241632875957451445, guid: 7ebd265f595f3ca49ac59fb7595ed139, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[1].item
+      value: 
+      objectReference: {fileID: 8810485995417373455, guid: e3348bbda5dfc65459294463ad1b268f, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[2].item
+      value: 
+      objectReference: {fileID: 5905414728471384901, guid: 901a613ea23fb8d4ea1e5f387954534c, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[1].dropRate
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7177230140679350406, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -34712,7 +34776,7 @@ Tilemap:
       - {fileID: 794802772, guid: a75b39e815aa794488b3819a2af96853, type: 3}
       - {fileID: -1247089321, guid: a75b39e815aa794488b3819a2af96853, type: 3}
       - {fileID: -2117893570, guid: a75b39e815aa794488b3819a2af96853, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 1, y: -4, z: 0}
@@ -34975,6 +35039,22 @@ PrefabInstance:
       propertyPath: MoveZone
       value: 
       objectReference: {fileID: 1480413350}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[0].item
+      value: 
+      objectReference: {fileID: 5241632875957451445, guid: 7ebd265f595f3ca49ac59fb7595ed139, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[1].item
+      value: 
+      objectReference: {fileID: 8810485995417373455, guid: e3348bbda5dfc65459294463ad1b268f, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[2].item
+      value: 
+      objectReference: {fileID: 5905414728471384901, guid: 901a613ea23fb8d4ea1e5f387954534c, type: 3}
+    - target: {fileID: 6880882788682380836, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+      propertyPath: itemDrops.Array.data[1].dropRate
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7177230140679350406, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
