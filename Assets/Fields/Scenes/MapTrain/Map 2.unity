@@ -7185,6 +7185,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zone Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 8274874688697502605, guid: 08d0435986f53b04aac6d31a7c283bf5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7495,6 +7499,52 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5127ebeea38ce1f41bc293054ec47948, type: 3}
+--- !u!1 &690137761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 690137763}
+  - component: {fileID: 690137762}
+  m_Layer: 0
+  m_Name: CountManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &690137762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690137761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e70f08299fab3bf45932ca0557f76cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tele: {fileID: 1108990184}
+  KillEnemy: 5
+--- !u!4 &690137763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690137761}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.409271, y: -0.17591129, z: -0.057908244}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &735036033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8095,6 +8145,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62a4807175fd1724aa1a69efdfcc06e0, type: 3}
+--- !u!1 &1108990184 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4951399133697202978, guid: 62a4807175fd1724aa1a69efdfcc06e0, type: 3}
+  m_PrefabInstance: {fileID: 1108990183}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1122482039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34908,7 +34963,7 @@ Tilemap:
       - {fileID: 1891910620, guid: a75b39e815aa794488b3819a2af96853, type: 3}
       - {fileID: -886452453, guid: a75b39e815aa794488b3819a2af96853, type: 3}
       - {fileID: -737215495, guid: a75b39e815aa794488b3819a2af96853, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -35216,3 +35271,4 @@ SceneRoots:
   - {fileID: 1928107911}
   - {fileID: 2052847144}
   - {fileID: 639934521}
+  - {fileID: 690137763}
