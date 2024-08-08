@@ -8,6 +8,7 @@ public class SpawnManager : MonoBehaviour
 
     public GameObject enemyPrefab;   
     public Transform spawnPoints;
+    public int count;
     public int maxEnemies;
     public float spawnTime;
     public int currentEnemies;
@@ -46,6 +47,7 @@ public class SpawnManager : MonoBehaviour
     IEnumerator TimeSpawn()
     {
         yield return new WaitForSeconds(spawnTime);
+        count++;
         SpawnEnemy();
     }
 
