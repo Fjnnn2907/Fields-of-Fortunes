@@ -62,9 +62,9 @@ MonoBehaviour:
   enemyState: 0
   icon: {fileID: 4565429464033978660}
   itemDrops: []
-  rb: {fileID: 0}
-  anim: {fileID: 0}
-  MoveZone: {fileID: 0}
+  rb: {fileID: 116004698191556939}
+  anim: {fileID: 1233242000516967862}
+  MoveZone: {fileID: 5040026778675299295, guid: 08d0435986f53b04aac6d31a7c283bf5, type: 3}
   hp: 100
   maxHp: 100
   healthSlider: {fileID: 2819010691279575526}

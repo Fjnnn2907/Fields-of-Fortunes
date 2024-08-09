@@ -63,13 +63,13 @@ MonoBehaviour:
   itemDrops:
   - item: {fileID: 5241632875957451445, guid: 7ebd265f595f3ca49ac59fb7595ed139, type: 3}
     dropRate: 0.7
-  - item: {fileID: 5905414728471384901, guid: 901a613ea23fb8d4ea1e5f387954534c, type: 3}
-    dropRate: 0.4
   - item: {fileID: 802495143626001703, guid: ff80d275be28b054db0d352597d02905, type: 3}
     dropRate: 0.2
-  rb: {fileID: 0}
-  anim: {fileID: 0}
-  MoveZone: {fileID: 0}
+  - item: {fileID: 5905414728471384901, guid: 901a613ea23fb8d4ea1e5f387954534c, type: 3}
+    dropRate: 0.2
+  rb: {fileID: 834210492173524034}
+  anim: {fileID: 8657293217792488888}
+  MoveZone: {fileID: 5040026778675299295, guid: 08d0435986f53b04aac6d31a7c283bf5, type: 3}
   hp: 10
   maxHp: 0
   healthSlider: {fileID: 636174093607004562}
