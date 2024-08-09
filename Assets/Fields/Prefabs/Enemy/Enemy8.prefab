@@ -235,8 +235,8 @@ MonoBehaviour:
     dropRate: 0.4
   - item: {fileID: 802495143626001703, guid: ff80d275be28b054db0d352597d02905, type: 3}
     dropRate: 0.2
-  rb: {fileID: 0}
-  anim: {fileID: 0}
+  rb: {fileID: 8602582756386885429}
+  anim: {fileID: 2064680592170117019}
   MoveZone: {fileID: 5040026778675299295, guid: 08d0435986f53b04aac6d31a7c283bf5, type: 3}
   hp: 10
   maxHp: 0

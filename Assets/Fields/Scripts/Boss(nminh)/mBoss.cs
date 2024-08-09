@@ -13,21 +13,20 @@ public class mBoss : MonoBehaviour
     public float attackCooldown = 2f; // Cooldown between attacks
     public int maxHealth = 100; // Max health
     public int damage = 10; // Damage dealt to the player
-    private float targetFillAmount;
-    public float updateSpeed = 0.5f;
 
     [SerializeField] private float lastAttackTime = 0f; // Time of last attack
     [SerializeField] private int currentHealth; // Current health
     [SerializeField] private Animator animator; // Animator component
     [SerializeField] private bool isDead = false; // Flag to check if boss is dead
-    [SerializeField] private Slider healthSlider;
-    [SerializeField] private Image Hp;
     private PlayerManger manager;
-    
+
+    private void Awake()
+    {
+        player = GameObject.Find("PLAYER");
+    }
+
     void Start()
     {
-        currentHealth = maxHealth;
-        healthSlider.maxValue = maxHealth;
         animator = GetComponent<Animator>();
         manager = player.GetComponent<PlayerManger>();
     }
@@ -38,19 +37,14 @@ public class mBoss : MonoBehaviour
 
         MoveTowardsPlayer();
         HandleAttack();
-        
-        if (Hp.fillAmount != targetFillAmount)
-        {
-            Hp.fillAmount = Mathf.MoveTowards(Hp.fillAmount, targetFillAmount, updateSpeed * Time.deltaTime);
-
-        }
     }
 
     void MoveTowardsPlayer()
     {
         animator.SetBool("isRunning",true);
         Vector2 direction = (player.transform.position - transform.position).normalized;
-        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards
+            (transform.position, player.transform.position, speed * Time.deltaTime);
     }
 
     void HandleAttack()
